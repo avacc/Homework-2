@@ -23,6 +23,9 @@
 		FA5A5DFA16D17E4100F3E87B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5A5DD516D17E4000F3E87B /* Foundation.framework */; };
 		FA5A5E0216D17E4100F3E87B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5A5E0016D17E4100F3E87B /* InfoPlist.strings */; };
 		FA5A5E0516D17E4100F3E87B /* Homework_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A5E0416D17E4100F3E87B /* Homework_2Tests.m */; };
+		FA5A5E0F16D18D2500F3E87B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5A5E0E16D18D2500F3E87B /* CoreLocation.framework */; };
+		FA5A5E1116D18D3000F3E87B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5A5E1016D18D3000F3E87B /* MapKit.framework */; };
+		FA5A5E1416D2D49100F3E87B /* AGVLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5A5E1316D2D49100F3E87B /* AGVLocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,10 @@
 		FA5A5E0116D17E4100F3E87B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA5A5E0316D17E4100F3E87B /* Homework_2Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Homework_2Tests.h; sourceTree = "<group>"; };
 		FA5A5E0416D17E4100F3E87B /* Homework_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_2Tests.m; sourceTree = "<group>"; };
+		FA5A5E0E16D18D2500F3E87B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FA5A5E1016D18D3000F3E87B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FA5A5E1216D2D49100F3E87B /* AGVLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGVLocationManager.h; sourceTree = "<group>"; };
+		FA5A5E1316D2D49100F3E87B /* AGVLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGVLocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5A5E1116D18D3000F3E87B /* MapKit.framework in Frameworks */,
+				FA5A5E0F16D18D2500F3E87B /* CoreLocation.framework in Frameworks */,
 				FA5A5DD416D17E4000F3E87B /* UIKit.framework in Frameworks */,
 				FA5A5DD616D17E4000F3E87B /* Foundation.framework in Frameworks */,
 				FA5A5DD816D17E4000F3E87B /* CoreGraphics.framework in Frameworks */,
@@ -106,6 +115,8 @@
 		FA5A5DD216D17E4000F3E87B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A5E1016D18D3000F3E87B /* MapKit.framework */,
+				FA5A5E0E16D18D2500F3E87B /* CoreLocation.framework */,
 				FA5A5DD316D17E4000F3E87B /* UIKit.framework */,
 				FA5A5DD516D17E4000F3E87B /* Foundation.framework */,
 				FA5A5DD716D17E4000F3E87B /* CoreGraphics.framework */,
@@ -117,6 +128,8 @@
 		FA5A5DD916D17E4000F3E87B /* Homework 2 */ = {
 			isa = PBXGroup;
 			children = (
+				FA5A5E1216D2D49100F3E87B /* AGVLocationManager.h */,
+				FA5A5E1316D2D49100F3E87B /* AGVLocationManager.m */,
 				FA5A5DE216D17E4000F3E87B /* AGVAppDelegate.h */,
 				FA5A5DE316D17E4000F3E87B /* AGVAppDelegate.m */,
 				FA5A5DEB16D17E4100F3E87B /* MainStoryboard.storyboard */,
@@ -274,6 +287,7 @@
 				FA5A5DE016D17E4000F3E87B /* main.m in Sources */,
 				FA5A5DE416D17E4000F3E87B /* AGVAppDelegate.m in Sources */,
 				FA5A5DF016D17E4100F3E87B /* AGVViewController.m in Sources */,
+				FA5A5E1416D2D49100F3E87B /* AGVLocationManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
